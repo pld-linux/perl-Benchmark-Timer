@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Benchmark
-%define	pnam	Timer
+%define		pdir	Benchmark
+%define		pnam	Timer
 Summary:	Benchmark::Timer - Perl code benchmarking tool
 Summary(pl):	Benchmark::Timer - narzêdzie do testowania wydajno¶ci kodu perlowego
 Name:		perl-Benchmark-Timer
