@@ -8,13 +8,14 @@
 Summary:	Benchmark::Timer - Perl code benchmarking tool
 Summary(pl):	Benchmark::Timer - narzêdzie do testowania wydajno¶ci kodu perlowego
 Name:		perl-Benchmark-Timer
-Version:	0.5
-Release:	2
+Version:	0.7.0
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	798b37903b9a8ae1624e9c745123f2eb
+# Source0-md5:	ce7f5dffa69f59776bd5c4d181db47e0
+BuildRequires:	perl-Statistics-TTest
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -58,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc CHANGES README
 %dir %{perl_vendorlib}/Benchmark
 %{perl_vendorlib}/Benchmark/Timer.pm
 %{_mandir}/man3/*
