@@ -11,7 +11,7 @@ Name:		perl-Benchmark-Timer
 Version:	0.5
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	798b37903b9a8ae1624e9c745123f2eb
