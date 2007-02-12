@@ -6,7 +6,7 @@
 %define		pdir	Benchmark
 %define		pnam	Timer
 Summary:	Benchmark::Timer - Perl code benchmarking tool
-Summary(pl):	Benchmark::Timer - narzêdzie do testowania wydajno¶ci kodu perlowego
+Summary(pl.UTF-8):   Benchmark::Timer - narzÄ™dzie do testowania wydajnoÅ›ci kodu perlowego
 Name:		perl-Benchmark-Timer
 Version:	0.7100
 Release:	1
@@ -29,13 +29,13 @@ information about the running time of portions of your code than the
 Benchmark module will give you, but don't want to go all out and
 profile your code.
 
-%description -l pl
-Klasa Benchmark::Timer pozwala wygodnie mierzyæ czas wykonywania
-fragmentów kodu, a tak¿e mierzyæ wydajno¶æ kodu pozwalaj±c na
-mierzenie czasu w powtarzanych próbach. Jest to idealne je¶li
-potrzebujemy bardziej precyzyjnej informacji o czasie dzia³ania
-fragmentów kodu ni¿ mo¿e daæ modu³ Benchmark, ale nie chcemy i¶æ na
-ca³o¶æ i profilowaæ kodu.
+%description -l pl.UTF-8
+Klasa Benchmark::Timer pozwala wygodnie mierzyÄ‡ czas wykonywania
+fragmentÃ³w kodu, a takÅ¼e mierzyÄ‡ wydajnoÅ›Ä‡ kodu pozwalajÄ…c na
+mierzenie czasu w powtarzanych prÃ³bach. Jest to idealne jeÅ›li
+potrzebujemy bardziej precyzyjnej informacji o czasie dziaÅ‚ania
+fragmentÃ³w kodu niÅ¼ moÅ¼e daÄ‡ moduÅ‚ Benchmark, ale nie chcemy iÅ›Ä‡ na
+caÅ‚oÅ›Ä‡ i profilowaÄ‡ kodu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
