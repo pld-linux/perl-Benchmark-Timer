@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Benchmark
 %define		pnam	Timer
+%include	/usr/lib/rpm/macros.perl
 Summary:	Benchmark::Timer - Perl code benchmarking tool
 Summary(pl.UTF-8):	Benchmark::Timer - narzędzie do testowania wydajności kodu perlowego
 Name:		perl-Benchmark-Timer
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d79a85ebdd458a34b5e979b636f5128b
+URL:		http://search.cpan.org/dist/Benchmark-Timer/
 BuildRequires:	perl-Statistics-TTest
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
