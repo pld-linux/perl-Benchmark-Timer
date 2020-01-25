@@ -4,7 +4,6 @@
 
 %define		pdir	Benchmark
 %define		pnam	Timer
-%include	/usr/lib/rpm/macros.perl
 Summary:	Benchmark::Timer - Perl code benchmarking tool
 Summary(pl.UTF-8):	Benchmark::Timer - narzędzie do testowania wydajności kodu perlowego
 Name:		perl-Benchmark-Timer
